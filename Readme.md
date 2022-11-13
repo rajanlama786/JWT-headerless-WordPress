@@ -11,4 +11,12 @@ https://startbootstrap.com/previews/clean-blog
 Note:
 
 1. You will need JWT token to perform "POST"
-2. You will need to use "Composer Install" and "Composer Update" to install recommended Plugins
+2. copy the composer.json inside fresh wordpress.
+3. You will need to use "Composer Install" and "Composer Update" to install recommended Plugins
+4. This will install the required plugin
+5. Now activate the plugins
+6. Your website must be "localhost/headerlessWP" and credential "admin" and password "pass"
+7. Now go to FrontendApp/Blogger.
+8. "npm start"
+9. Now go to "Localhost:3000"
+10. click "view Post"
