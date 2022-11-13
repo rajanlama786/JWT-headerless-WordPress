@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 //import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -22,6 +23,7 @@ export default class Posts extends Component {
       <>
         <div className="row gx-4 gx-lg-5 justify-content-center">
           <div className="col-md-10 col-lg-8 col-xl-7">
+            <h1>Please Login To View Posts</h1>
             {this.state.posts.map((post, i) => (
               <>
                 <div key={i}>

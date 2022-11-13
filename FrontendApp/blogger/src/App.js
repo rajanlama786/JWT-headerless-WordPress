@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import Navigation from "./components/Navigation.js";
 import Header from "./components/Header.js";
-import Posts from "./components/Posts.js";
+//import Posts from "./components/Posts.js";
 import Footer from "./components/Footer.js";
-import Form from "./components/Form.js";
+import Login from "./components/Login.js";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Header />
-      <Posts />
+      <Login />
+
       {/* <Form /> */}
       <Footer />
     </div>
