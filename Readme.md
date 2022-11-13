@@ -20,3 +20,10 @@ Note:
 8. "npm start"
 9. Now go to "Localhost:3000"
 10. click "view Post"
+
+#NOTE:
+Do not forget to insert add following code in wp-config.php
+
+define('JWT*AUTH_SECRET_KEY', '3]tYYQcYoY#qulCZf/9-M:|Wv{!aHy)Wb`*?OsbgIF-Q%L[0s.NSF jBS7noP6QI');
+
+define('JWT_AUTH_CORS_ENABLE', true);
