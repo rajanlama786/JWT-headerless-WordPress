@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+//import { Link } from "react-router-dom";
 import axios from "axios";
 
 export default class Posts extends Component {
@@ -25,15 +26,24 @@ export default class Posts extends Component {
               <>
                 <div key={i}>
                   <div className="post-preview">
-                    <a href="post.html">
-                      <h2 className="post-title">{post.title.rendered}</h2>
-                      <h3 className="post-subtitle">{post.excerpt.rendered}</h3>
-                    </a>
-                    {/* <p className="post-meta">
-                    Posted by
-                    <a href="#!">Start Bootstrap</a>
-                    on {post.date}
-                  </p> */}
+                    <h2
+                      className="post-title"
+                      dangerouslySetInnerHTML={{
+                        __html: post.title.rendered,
+                      }}
+                    ></h2>
+                    <p
+                      className="post-subtitle"
+                      dangerouslySetInnerHTML={{
+                        __html: post.excerpt.rendered,
+                      }}
+                    ></p>
+
+                    <p className="post-meta">
+                      Posted by
+                      <a href="#!">Start Bootstrap</a>
+                      on {post.date}
+                    </p>
                   </div>
 
                   <hr className="my-4" />

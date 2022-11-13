@@ -51,11 +51,6 @@ export default class Navigation extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link px-lg-3 py-3 py-lg-4" href="post.html">
-                    Sample Post
-                  </a>
-                </li>
-                <li className="nav-item">
                   <a
                     className="nav-link px-lg-3 py-3 py-lg-4"
                     href="contact.html"

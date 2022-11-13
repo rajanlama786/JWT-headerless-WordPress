@@ -211,6 +211,27 @@
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/wp-graphql/",
             "install-path": "../../wp-content/plugins/wp-graphql"
+        },
+        {
+            "name": "wpackagist-plugin/wp-rest-menu",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-rest-menu/",
+                "reference": "tags/1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-menu.1.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "homepage": "https://wordpress.org/plugins/wp-rest-menu/",
+            "install-path": "../../wp-content/plugins/wp-rest-menu"
         }
     ],
     "dev": true,
